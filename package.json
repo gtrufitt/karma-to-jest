@@ -1,0 +1,24 @@
+{
+  "name": "karma-to-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:karma": "./node_modules/karma/bin/karma start",
+    "test:jest": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.5.3",
+    "jest": "^18.1.0",
+    "karma": "^1.4.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-requirejs": "^1.1.0",
+    "requirejs": "^2.3.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["/test/"]
+  }
+}
