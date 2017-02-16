@@ -24,7 +24,7 @@ In `package.json`:
   ]
 }
 ```
-### Sinon
+## Sinon
 
 Convert the Sinon functions to use `jest.fn()`?
 
