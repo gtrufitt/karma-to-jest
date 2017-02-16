@@ -17,7 +17,7 @@
 
 In `package.json`:
 
-```
+```json
 "jest": {
   "testPathIgnorePatterns": [
     "/test/"
@@ -34,7 +34,7 @@ There is [spyOn coming in Jest but there's no docs right now.](https://github.co
 
 This works though:
 
-```
+```javascript
 it('calls the original function', function() {
     var callback = sinon.spy();
     var proxy = sinontest.once(callback);
@@ -47,7 +47,7 @@ it('calls the original function', function() {
 
 becomes:
 
-```
+```javascript
 it('calls the original function', function() {
     var callback = jest.fn();
     var proxy = sinontest.once(callback);
