@@ -1,5 +1,14 @@
 # Converting Jasmine, Karma, Require and Sinon to use ES6 modules and Jest
 
+## Structure
+
+```
+- src (Requirejs files)
+- test (Requirejs test specs)
+- srces6 (es6 files)
+- testes6 (es6 test specs)
+```
+
 ## Jest config
 
 ### Ignoring the Karma tests
