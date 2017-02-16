@@ -16,9 +16,13 @@
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-requirejs": "^1.1.0",
-    "requirejs": "^2.3.2"
+    "karma-sinon": "^1.0.5",
+    "requirejs": "^2.3.2",
+    "sinon": "^1.17.7"
   },
   "jest": {
-    "testPathIgnorePatterns": ["/test/"]
+    "testPathIgnorePatterns": [
+      "/test/"
+    ]
   }
 }
