@@ -1,1 +1,1 @@
-module.exports = 'string';
+export default 'string';
