@@ -49,11 +49,11 @@ becomes:
 
 ```javascript
 it('calls the original function', function() {
-    var callback = jest.fn();
+    var callback = jest.fn(); // Update this to jest.fn()
     var proxy = sinontest.once(callback);
 
     proxy();
 
-    expect(callback).toHaveBeenCalled();
+    expect(callback).toHaveBeenCalled(); // Use toHaveBeenCalled() http://facebook.github.io/jest/docs/expect.html#tohavebeencalled
 });
 ```
